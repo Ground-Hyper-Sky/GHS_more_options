@@ -12,7 +12,6 @@
     "repo": "https://github.com/mc-doge666/GHS_more_options"
   },
   "license": "GPL-3.0",
-  "icon": "assets/ghs_more_options/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
