@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "ghs_more_options",
+  "version": "${version}",
+  "name": "GHS_more_options",
+  "description": "",
+  "authors": [
+    "mc_doge_"
+  ],
+  "contact": {
+    "website": "mc-doge666.github.io",
+    "repo": "https://github.com/mc-doge666/GHS_more_options"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/ghs_more_options/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.ghs.ghs_more_options.client.GHS_more_optionsClient"
+    ],
+    "main": [
+      "org.ghs.ghs_more_options.GHS_more_options"
+    ]
+  },
+  "mixins": [
+    "ghs_more_options.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
